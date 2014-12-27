@@ -1,0 +1,11 @@
+{
+    "name": "starfoundry",
+    "version": "Beta v. Upbeat Giraffe",
+    "path": "assets",
+    "dependencies": [],
+    "metadata": {
+        "author": "Starfoundry Collaborators",
+        "version": "1.4 alpha",
+        "description": "A new Starfoundry for a new year!"
+    }
+}
