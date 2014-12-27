@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "activate" : [ "/sfx/tech/tech_doublejump.wav" ]
+  }
+}

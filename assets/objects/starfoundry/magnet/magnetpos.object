@@ -1,0 +1,25 @@
+{
+  "objectName" : "magnetpos",
+  "rarity" : "Rare",
+  
+  "description" : "A strong positive permanent magnet.",
+  "shortdescription" : "Positive Magnet",
+  "race" : "generic",
+
+  "printable" : false,
+
+  "lightColor" : [50, 0, 0],
+
+  "inventoryIcon" : "magnetpos.png",
+  "orientations" : [
+    {
+      "image" : "magnetpos.png",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "magnetCharge" : 100
+}

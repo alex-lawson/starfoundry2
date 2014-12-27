@@ -1,0 +1,9 @@
+{
+  "itemName" : "magnetizeTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/gravityball.png",
+  "description" : "Press 'F' to activate or deactivate a magnetic field, 'G' to switch polarity.",
+  "shortdescription" : "Magnetize",
+
+  "techModule" : "magnetize"
+}

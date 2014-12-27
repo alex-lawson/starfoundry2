@@ -1,0 +1,18 @@
+{
+  "name" : "magneticpos",
+  "effectConfig" : {
+    "magnetCharge" : 100
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "/scripts/vec2.lua",
+    "magnetic.lua"
+  ],
+  "scriptDelta" : 2,
+
+  "animationConfig" : "magnetic.animation",
+
+  "label" : "Magnetic",
+  "icon" : "/interface/statuses/magneticpos.png"
+}

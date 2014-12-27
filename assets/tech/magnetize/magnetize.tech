@@ -1,0 +1,11 @@
+{
+  "name" : "magnetize",
+  "type" : "head",
+
+  "scripts" : ["magnetize.lua"],
+  "scriptDelta" : 5,
+  "actions" : [ "activate", "deactivate", "switchPolarity" ],
+  "animator" : "magnetize.animation",
+
+  "energyUsageRate" : 10.0
+}

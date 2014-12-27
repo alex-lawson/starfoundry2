@@ -1,0 +1,25 @@
+{
+  "objectName" : "magnetneg",
+  "rarity" : "Rare",
+  
+  "description" : "A strong negative permanent magnet.",
+  "shortdescription" : "Negative Magnet",
+  "race" : "generic",
+
+  "printable" : false,
+
+  "lightColor" : [50, 0, 0],
+
+  "inventoryIcon" : "magnetneg.png",
+  "orientations" : [
+    {
+      "image" : "magnetneg.png",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "magnetCharge" : -100
+}
