@@ -1,0 +1,54 @@
+{
+  "objectName" : "liquidpump",
+  
+  "rarity" : "Common",
+  "description" : "This pump is used to move liquids from one point to another.",
+  "shortdescription" : "Pump",
+  "race" : "generic",
+  "category" : "wire",
+  "printable" : false,
+
+  "apexDescription" : "Pump",
+  "avianDescription" : "Pump",
+  "floranDescription" : "Pump",
+  "glitchDescription" : "Pump",
+  "humanDescription" : "Pump",
+  "hylotlDescription" : "Pump",
+
+  "inventoryIcon" : "pump.png:pump.4",
+  "orientations" : [
+    {
+      "dualImage" : "placepump.png",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "scripts" : [
+    "/objects/starfoundry/pump/pump.lua",
+    "/scripts/pipesapi.lua",
+    "/scripts/pipesutil.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+  "scriptDelta" : 5,
+  
+  "animation" : "/objects/starfoundry/pump/pump.animation",
+  "animationParts" : {
+    "pump" : "pump.png"
+  },
+  "animationPosition" : [8, 4],
+  
+  "inboundNodes" : [[0, 0]],
+  "outboundNodes" : [[1, 0]],
+  
+  "pipeNodes" : [ {"offset": [0, 0], "dir": [-1, 0]}, {"offset": [1, 0], "dir": [1, 0]} ],
+  "flippedPipeNodes" : [ {"offset": [1, 0], "dir": [1, 0]}, {"offset": [0, 0], "dir": [-1, 0]} ],
+
+  "pumpRate" : 0.5
+}
